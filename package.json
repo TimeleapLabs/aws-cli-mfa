@@ -1,0 +1,24 @@
+{
+  "name": "@kenshi.io/aws-cli-mfa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "enquirer": "^2.3.6",
+    "execa": "^6.0.0",
+    "ini": "^2.0.0",
+    "ora": "^6.0.1",
+    "yargs": "^17.3.1"
+  },
+  "bin": {
+    "aws-mfa": "./index.js"
+  }
+}
